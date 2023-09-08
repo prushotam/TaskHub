@@ -1,0 +1,64 @@
+{
+    "data": [
+      {
+        "firstname": "Yogesh",
+        "lastname": "Singh",
+        "place": "Deoghar",
+        "studentType": "Student Intern",
+        "rangeinkm": 2.2,
+        "hobbies": ["Coffee", "Business", "Friendship", "Movies"],
+        "label": "YS",
+        "message": "Hi community! I am open to new connections '😄'"
+      },
+      {
+        "firstname": "Vishwajeet",
+        "lastname": "Kumar",
+        "place": "Deoghar",
+        "studentType": "Student Member",
+        "rangeinkm": 1.5,
+        "hobbies": ["Coffee", "Business", "Friendship"],
+        "label": "VK",
+        "message": "Hi community! I am open to new connections '😄'"
+      },
+      {
+        "firstname": "Robert",
+        "lastname": "Smith",
+        "place": "Chicago",
+        "studentType": "Shop Assistant",
+        "rangeinkm": 3.0,
+        "hobbies": ["Coffee", "Business", "Friendship"],
+        "label": "RS",
+        "message": "Hi community! I am open to new connections '😄'"
+      },
+      {
+        "firstname": "Emma",
+        "lastname": "Brown",
+        "place": "San Francisco",
+        "studentType": "College",
+        "rangeinkm": 5,
+        "hobbies": ["Traveling", "Photography"],
+        "label": "EB",
+        "message": "Hi community! I am open to new connections '😄'"
+      },{
+        "firstname": "Michael",
+        "lastname": "Johnson",
+        "place": "Houston",
+        "studentType": "High School",
+        "rangeinkm": 4.2,
+        "hobbies": ["Gaming", "Coding"],
+        "label": "MJ",
+        "message": "Hi community! I am open to new connections '😄'"
+      },
+      {
+        "firstname": "Olivia",
+        "lastname": "Garcia",
+        "place": "Miami",
+        "studentType": "University",
+        "rangeinkm": 6.8,
+        "hobbies": ["Dancing", "Cooking"],
+        "label": "OG",
+        "message": "Hi community! I am open to new connections '😄'"
+      }
+    ]
+  }
+  
