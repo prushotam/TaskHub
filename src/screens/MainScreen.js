@@ -63,7 +63,7 @@ const MainScreen = () => {
           options={{
             headerStyle: {backgroundColor: Colors.Primary},
             headerTitleContainerStyle: {flexWrap: 'wrap'},
-            headerTitle: 'Howdy Prushotam Mishra !!\n & Location', //Actually it should be updated from backend data but hardcoded here
+            // headerTitle: 'Howdy Prushotam Mishra !!\n & Location', //Actually it should be updated from backend data but hardcoded here
             headerTitleStyle: {
               fontFamily: 'RobotoCondensed-Regular',
               fontSize: 15,

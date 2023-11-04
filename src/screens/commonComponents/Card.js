@@ -1,4 +1,4 @@
-import {StyleSheet, View} from 'react-native';
+import {StyleSheet, View, SafeAreaView} from 'react-native';
 import React from 'react';
 import {Colors} from '../../utils/colors';
 import {Surface, Text} from 'react-native-paper';
@@ -11,8 +11,8 @@ import Animated, {
   useSharedValue,
   withTiming,
 } from 'react-native-reanimated';
-import {PanGestureHandler} from 'react-native-gesture-handler';
-const CARD_HEIGHT = SCREEN_HEIGHT * 0.2;
+import {PanGestureHandler, ScrollView} from 'react-native-gesture-handler';
+const CARD_HEIGHT = SCREEN_HEIGHT * 0.28;
 const CARD_WIDTH = SCREEN_WIDTH * 0.8;
 const Card = ({priority, title, date, description, children, onDelete, onShift}) => {
   const translateXThreshold = -SCREEN_WIDTH * 0.6;
@@ -110,12 +110,12 @@ const Card = ({priority, title, date, description, children, onDelete, onShift})
           <Surface style={styles.surface} elevation={4}>
             <Text style={styles.label}>{priority}</Text>
           </Surface>
-          <View style={styles.cardItem}>
+          <ScrollView contentContainerStyle={styles.cardItem} showsVerticalScrollIndicator={false} >
             <Text style={styles.name}>{title}</Text>
             <Text>{description}</Text>
             <Text style={{color: Colors.Secondary}}>Deadline: {date}</Text>
             {children}
-          </View>
+          </ScrollView>
         </Animated.View>
       </PanGestureHandler>
     </View>
